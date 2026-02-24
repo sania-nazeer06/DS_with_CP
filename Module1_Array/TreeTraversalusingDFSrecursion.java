@@ -26,26 +26,26 @@ class TreeNode{
     }
 }
 class Main {
-public static void main(String[] args) {
-    TreeNode a=new TreeNode(5); //root node
-    TreeNode b=new TreeNode(10);
-    TreeNode c=new TreeNode(15);
-    TreeNode d=new TreeNode(20);
-    TreeNode e=new TreeNode(25);
-    TreeNode f=new TreeNode(30);
-    System.out.println(a.d);
-    System.out.println(b.d);
-    //linking the nodes
-    a.l=b;
-    a.r=c;
-    b.l=d;
-    b.r=e;
-    c.l=f;
-    System.out.println("inorder");
-    a.inorder(a);
-    System.out.println("postorder");
-    a.postorder(a);
-    System.out.println("preorder");
-    a.preorder(a);
-}
+    public static void main(String[] args) {
+        TreeNode a=new TreeNode(5); //root node
+        TreeNode b=new TreeNode(10);
+        TreeNode c=new TreeNode(15);
+        TreeNode d=new TreeNode(20);
+        TreeNode e=new TreeNode(25);
+        TreeNode f=new TreeNode(30);
+        System.out.println(a.d);
+        System.out.println(b.d);
+        //linking the nodes
+        a.l=b;
+        a.r=c;
+        b.l=d;
+        b.r=e;
+        c.l=f;
+        System.out.println("inorder");
+        a.inorder(a);
+        System.out.println("postorder");
+        a.postorder(a);
+        System.out.println("preorder");
+        a.preorder(a);
+    }
 }
